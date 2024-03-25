@@ -1,6 +1,5 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const PedidoDeBolo = require('./models/pedidoDeBolo');
 
 const app = express();
 app.use(express.json());
